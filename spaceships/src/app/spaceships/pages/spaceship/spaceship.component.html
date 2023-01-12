@@ -1,0 +1,29 @@
+<mat-grid-list cols="1" *ngIf="!spaceship; else divspaceship">
+  <mat-grid-tile>
+    <mat-spinner></mat-spinner>
+  </mat-grid-tile>
+</mat-grid-list>
+<ng-template #divspaceship>
+
+  <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="30px">
+    <div fxFlex="50">
+      <h1>{{spaceship.name}}</h1>
+      <mat-divider></mat-divider>
+      <br>
+      <img [src]="spaceship.img" alt="">
+    </div>
+    <div fxFlex="50">
+      <h1>{{spaceship.name}}</h1>
+      <mat-divider></mat-divider>
+      <br>
+      <mat-list>
+        <h1>{{ spaceship.description}}</h1>
+      </mat-list>
+      <br>
+      <button mat-button color="warn" (click)="regresar()">
+        Regresar
+
+      </button>
+    </div>
+  </div>
+</ng-template>

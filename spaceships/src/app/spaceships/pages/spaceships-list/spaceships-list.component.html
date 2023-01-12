@@ -1,0 +1,9 @@
+<h1>Listado de naves </h1>
+<mat-divider></mat-divider>
+<br>
+
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="start">
+  <div class="margin" fxFlex="20" fxFlex.sm="30" fxFlex.lg="15" *ngFor="let spaceship of spaceships">
+    <app-spaceship-card [spaceship]="spaceship"></app-spaceship-card>
+  </div>
+</div>

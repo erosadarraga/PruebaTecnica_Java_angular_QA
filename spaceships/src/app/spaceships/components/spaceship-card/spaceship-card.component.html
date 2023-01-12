@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{spaceship.name}}</mat-card-title>
+
+  </mat-card-header>
+  <img mat-card-image src={{spaceship.img}}>
+  <mat-card-subtitle>{{spaceship.typespaceship}}</mat-card-subtitle>
+  <mat-card-actions>
+    <button mat-button color="info" [routerLink]="['/spaceships/spaceship/',spaceship.id,spaceship.typespaceship]">
+      ver
+    </button>
+    <a href="/spaceships/spaceship-list"><button mat-button color="warn" (click)="deleteById()">
+        Eliminar
+      </button></a>
+
+  </mat-card-actions>
+</mat-card>
