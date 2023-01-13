@@ -1,7 +1,7 @@
 
 # Prueba sofkau QA 
 
-![texto_alternativo](Sin título.png){width=500px height=500px}
+![la imag](/img.png)
 
 ## 🛠 Sofware requerido
 Java-jdk >= 8, node =< 14 , MySQL:8 , Angular = 11
