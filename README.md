@@ -1,7 +1,7 @@
 
 # Prueba sofkau QA 
 
-![texto_alternativo](ubicacion_de_la_imagen){width=500px height=500px}
+![texto_alternativo](Sin título.png){width=500px height=500px}
 
 ## 🛠 Sofware requerido
 Java-jdk >= 8, node =< 14 , MySQL:8 , Angular = 11
